@@ -1,0 +1,25 @@
+.sentence-form,
+.sentence-answer {
+    border: 1px solid #000;
+    padding: 1rem;
+}
+
+.sentence-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.sentence-form__input {
+    line-height: 2rem;
+    padding-left: 1rem;
+}
+
+.sentence-form__submit {
+    padding: 0.5rem;
+}
+
+.sentence-answer__given {
+    padding: 0.5rem;
+    border: 1px solid #000;
+    background-color: #e6a95333;
+}

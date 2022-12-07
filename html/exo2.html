@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saison 2 - Filler - Exercice 2</title>
+
+    <link rel="stylesheet" href="../css/main/reset.css">
+    <link rel="stylesheet" href="../css/main/menu.css">
+    <link rel="stylesheet" href="../css/main/app.css">
+    <link rel="stylesheet" href="../css/exo/exo2.css">
+
+</head>
+<body class="container container--exercice">
+    <nav id="mainMenu" class="menu menu--exercice">
+        <h2 class="menu__title">Menu</h2>
+    </nav>
+
+    <main class="main">
+        <header class="header">
+            <h1 class="header__title"></h1>
+            <h2 class="header__subtitle"></h2>
+        </header>
+        
+        <section class="exercice">
+            <article class="exercice__detail">
+                <h3 class="exercice__detail-title">Détailes de l'exercice</h3>
+                <p class="exercice__detail-description">Le but de cette est de calculer les moyennes des étudiants. Cette fois-ci, toutes les données des étudiants doivent se trouver dans le script. Le nom et les notes sont juste à renseigner.</p>
+            </article>
+
+            <article class="exercice__detail">
+                <h3 class="exercice__detail-title">Astuce</h3>
+                <p id="advice" class="exercice__detail-description">Si vous ne voyez comment commencer l’exercice, vous pouvez utiliser cet onglet. Il vous donnera étape par étape comment appréhender le travail à effectuer.</p>
+                <div class="exercice__detail-switch">
+                    <svg id="arrow-left" class="arrow hidden" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 448 512"><path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg>
+
+                    <svg id="arrow-right" class="arrow" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 448 512"><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg>
+                </div>
+                
+            </article>
+
+            <article class="working-table">
+                <div class="list-student" id="listStudent"></div>
+                <button id="bestStudent">Qui est le meilleur ?</button>
+                <p>C'est <span id="bestStudentName">???</span> qui a la meilleur moyenne</p>
+            </article>
+        </section>
+    </main>
+   
+    <script src="../js/main/exercice.js"></script>
+    <script src="../js/main/page.js"></script>
+    <script src="../js/main/advice.js"></script>
+    <script src="../js/main/block.js"></script>
+    <script src="../js/main/app.js"></script>
+    <script src="../js/exo/2/exo2.js"></script>
+    <script src="../js/exo/2/app_exo2.js"></script>
+
+</body>
+</html>

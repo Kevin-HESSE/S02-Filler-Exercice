@@ -1,0 +1,63 @@
+/**-----------------------*/ 
+/** Section menu */
+/**-----------------------*/ 
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+
+    width: 60%;
+}
+
+.menu--exercice {
+    flex-basis: 20%;
+    height: 100%;
+    gap: 2rem;
+}
+
+.menu__title {
+    padding: 1rem;
+    
+    font-size: 2rem;
+    text-align: center;
+    color: #fff;
+
+    background-color: var(--background-color-exo);
+    border-bottom: 1px solid #000;
+}
+
+.menu__item {
+    display: flex;
+    gap : 0 1rem;  
+
+    padding: 1rem;
+
+    background-color: var(--background-color-secondary);
+    box-shadow: 10px 10px 20px 10px rgba(0, 0, 0, 0.25);
+}
+
+.menu__item * {
+    padding: 0.5rem;
+}
+
+.menu__item-link {
+    margin: 0 1rem;
+    padding: 0.5rem 2rem;
+
+    border-radius: 30px;
+
+    background-color: var(--background-color-tertiary);
+
+    text-transform: capitalize;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+}
+
+.menu__item-link:hover{
+    background-color: var(--background-color-hover);
+}
+
+.menu__item-link--active {
+    background-color: var(--background-color-hover);
+}

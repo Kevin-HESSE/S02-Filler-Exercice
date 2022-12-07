@@ -1,0 +1,113 @@
+:root {
+    --background-color-primary : #286C99;
+    --background-color-secondary : #75C8FF;
+    --background-color-tertiary : #53ABE6;
+
+    --background-color-hover : #e6a953;
+
+    --background-color-exo : rgba(153, 100, 24, 0.6);
+
+    --background-color-info : rgba(98,65,17,1);
+}
+
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    min-height: 100%;
+
+    background-color: var(--background-color-primary);
+}
+
+.container--exercice {
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+
+.main {
+    width: 80%;
+    min-height: 100vh;
+
+    background-color: #fff;
+}
+
+.header {
+    padding: 1rem;
+
+    text-align: center;
+    border-bottom: 1px solid #000;
+}
+
+.header__title {
+    font-size: 2.5rem;
+    line-height: 3rem;
+    text-transform: capitalize;
+}
+
+.header__subtitle {
+    font-size: 2rem;
+    line-height: 2.3rem;
+}
+
+.exercice {
+    margin: 3%;
+}
+
+.exercice__detail,
+.working-table {
+    margin: 2%;
+    padding: 2rem;
+}
+
+.exercice__detail {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.exercice__detail-title {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.exercice__detail-description {
+    line-height: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.exercice__detail-switch {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+
+    display: flex;
+    gap: 0 3rem;
+}
+
+.arrow {
+    width: 2rem;
+}
+
+.arrow:hover {
+    cursor: pointer;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.working-table {
+    border: 3px dashed #CCB18B;
+}
+
+.working-table *+* {
+    margin-top: 1.5rem;
+}
+

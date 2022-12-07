@@ -1,0 +1,132 @@
+/*! Un burger que j'ai osé copié !! Pourquoi réinventé la roue :D ? */
+
+#burger {
+    width:30px;
+    height:2px;
+    background:rgb(0, 0, 0);
+    display:inline-block;
+    position:relative;
+}
+
+#burger::before,
+#burger::after {
+  content:'';
+  width:30px;
+  height:2px;
+  background:rgb(0, 0, 0);
+  display:inline-block;
+  position:absolute;
+  transform-origin: center;
+  transition: all 0.3s ease;
+}
+
+#burger::before {
+  top:-7px;
+  left: 0;
+}
+#burger::after {
+  top:7px;
+  left: 0;
+}
+
+#burger.open {
+    background:transparent; /* la barre du milieu disparait */
+  }
+  /* celles du haut et du bas s'inclinent pour former une croix */
+#burger.open::before {
+    transform: rotate(45deg); 
+    top:0;
+}
+#burger.open::after {
+    transform: rotate(-45deg);
+    top:0;
+}
+
+#link {
+    padding: 1rem;
+}
+
+/*! Fin du burger */
+
+/** La partie challenge  */
+.working-table {
+    position: relative;
+
+    display: flex;
+    padding: 0;
+}
+
+.working-table *+* {
+    margin: 0;
+}
+
+.working-menu {
+    position: absolute;
+    left: 10%;
+    z-index: 1;
+
+    width: 90%;
+    height: 100%;
+
+    background-color: rgba(0, 0, 0, 0.6);
+    display: none;
+}
+
+
+ .working-menu.open {
+    display: block;
+}
+
+.working-menu *{
+    margin: 0;
+}
+
+.working-menu__burger {
+    position: absolute;
+
+    width: 10%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: crimson;
+}
+
+.working-menu__list {
+    position: absolute;
+    height: 100%;
+
+    background-color: wheat;
+}
+
+.working-menu__list * {
+    margin: 1rem;
+  
+}
+
+/* La partie blabla */
+
+.working-text {
+    margin: 1rem;
+    margin-left: 12%;
+}
+
+.working-text *+* {
+    margin-top: 1rem;
+}
+
+.working-text__title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.working-text__subtitle {
+    font-size: 1.5rem;
+}
+
+.working-text__info {
+    line-height: 1.3rem;
+}
+

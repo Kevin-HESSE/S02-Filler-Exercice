@@ -1,0 +1,15 @@
+.list-student {
+    display: flex;
+    gap: 0 1rem;
+}
+
+.student {
+    margin-top: 0;
+    padding: 1rem;
+
+    border: 1px dotted black;
+}
+
+.student__name {
+    border-bottom: 2px dotted black;
+}
