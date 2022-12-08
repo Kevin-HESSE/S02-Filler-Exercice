@@ -69,13 +69,13 @@
     height: 100%;
 
     background-color: rgba(0, 0, 0, 0.6);
-    display: none;
+    /* display: none; */
 }
 
-
+/* 
  .working-menu.open {
     display: block;
-}
+} */
 
 .working-menu *{
     margin: 0;

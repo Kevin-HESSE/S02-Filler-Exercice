@@ -13,3 +13,22 @@
 .student__name {
     border-bottom: 2px dotted black;
 }
+
+.show-student {
+    display: flex;
+    gap: 0 1rem;
+}
+
+.show-student *+* {
+    margin-top: 0;
+}
+
+.show-student p {
+    padding: 1rem;
+}
+
+.show-student button {
+    flex-basis: 20%;
+    padding: 1rem;
+    border-radius: 20px;
+}
