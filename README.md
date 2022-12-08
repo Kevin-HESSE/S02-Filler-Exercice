@@ -13,6 +13,8 @@
 
 Des astuces vous sont données dans les exercices. Ils resteront un peu obscur mais la trame de l'objectif vous ai donné dans le readme et dans l'énoncé. Bon courage.
 
+Chaque exercice dispose de son dossier avec un fichier js que vous trouverez dans `js/exo/numéroExercice`. C'est votre terrain de jeu. Attention si vous rajoutez des fichiers, pensez à les inclures.
+
 Les deux premiers exercices ont été traités lors du __filler 01__. Si vous les avez réalisé, reprenez votre code et transformez le en objet. Assurez également que tout fonctionne comme avant. C'est aussi un bon entrainement.
 
 Si vous avez des soucis pour la compréhension, n'hésitez pas à m'en faire part via une issue.
