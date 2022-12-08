@@ -1,5 +1,7 @@
 # S02-Filler-02
 
+Un grand merci à Alexis et Adrien de l'école de m'avoir conseillé et mettre en place ce projet. Et un grand merci à Kévin Lienard pour l'aide sur la première partie des exercices et de leurs idées.
+
 ## Point revues
 
 - Algorithmes
