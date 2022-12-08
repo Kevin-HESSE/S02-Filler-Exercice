@@ -27,7 +27,7 @@ L'utilisateur doit saisir une phrase dans le champs de formulaire. Vous devez r�
 
 Détails :
 
-Votre objectif est de créer deux élèves avec une liste de notes. Vous êtes libre de choisir ces données. Calculez la moyenne des deux élèves. 
+Votre objectif est de créer deux élèves avec une liste de notes. Vous êtes libre de choisir ces données. Calculez la moyenne des deux élèves.
 
 En terme d'affichage :
 

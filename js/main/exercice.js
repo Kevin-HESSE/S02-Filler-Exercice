@@ -86,7 +86,7 @@ const listExercice = [
         'exercice 4',
         `Défilement d'images`,
         'exo4',
-        `Ici, vous allez devoir gérer un défilement d'images. L'utilisateur doit pouvoir passer d'une image à une autre soit à l'aide des curseurs`,
+        `Ici, vous allez devoir gérer un défilement d'images. L'utilisateur doit pouvoir passer d'une image à une autre à l'aide des curseurs. Pas besoin d'effet de transitions.`,
         [
             `Dans un premier temps, repérer les éléments nécessaires.`,
             `Ensuite, pourquoi ne pas s'intéresser à défiler vers la droite? C'est le plus simple, on avance de pas en pas`,
