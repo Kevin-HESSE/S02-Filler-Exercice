@@ -17,7 +17,7 @@ Chaque exercice dispose de son dossier avec un fichier js que vous trouverez dan
 
 Les deux premiers exercices ont été traités lors du __filler 01__. Si vous les avez réalisé, reprenez votre code et transformez le en objet. Assurez également que tout fonctionne comme avant. C'est aussi un bon entrainement.
 
-Si vous avez des soucis pour la compréhension, n'hésitez pas à m'en faire part via une issue.
+Si vous avez des soucis pour la compréhension, n'hésitez pas à m'en faire part.
 
 ### La phrase la plus longue
 
