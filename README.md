@@ -1,7 +1,5 @@
 # S02-Filler-02
 
-Un grand merci à Alexis et Adrien de l'école de m'avoir conseillé et mettre en place ce projet. Et un grand merci à Kévin Lienard pour l'aide sur la première partie des exercices et de leurs idées.
-
 ## Point revues
 
 - Algorithmes
@@ -53,3 +51,7 @@ Détails :
 Un peu plus complexe, vous devez faire en sorte que les images changent lorsqu'on clique sur les flèches. Pas besoin d'effet de transition. Vous devez prendre en compte les deux sens.
 
 Faites étapes par étapes. La logique de l'un est l'inverse de l'autre.
+
+## Remerciement
+
+Un grand merci à Alexis et Adrien de l'école de m'avoir conseillé et mettre en place ce projet. Et un grand merci à Kévin Lienard pour l'aide sur la première partie des exercices et de leurs idées.
